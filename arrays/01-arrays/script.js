@@ -69,3 +69,13 @@ for(i = 0; i < teachers.length; i++){
     break
   }
 }
+
+//Oppure
+
+let isTeachersEmpty = true
+
+if (!teachers.length == 0){
+    isTeachersEmpty = false
+}
+
+console.log(isTeachersEmpty)
